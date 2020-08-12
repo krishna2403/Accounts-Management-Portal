@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    padding-top: 51px;
+}
+
+.nav-list {
+    padding: 0px;
+    margin: 0px 0px 0px auto;
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+button[name="logout-submit"], select {
+    border-radius: 8px;
+    border: 0px;
+    background-color:rgb(168, 221, 221);
+}
+
+a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+}
+
+.heading {
+    color: white;
+    padding-top: 24px;
+}
+
+.tab1 {
+    /* background-color: grey; */
+    /* background-image: repeating-linear-gradient(rgb(187, 175, 175), rgb(156, 156, 64), rgb(170, 133, 63)); */
+    background-image: repeating-linear-gradient(rgb(163, 224, 224), rgb(219, 219, 137));
+    height: calc(100vh - 51px);
+}
+
+.flex-container {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tab1-col1 {
+    width: 20%;
+    background-color: #212529;
+    position: fixed;
+}
+
+.tab1-col1 a {
+    color: white;
+}
+
+.line {
+    border: 0.5px solid wheat;
+    width: 95%;
+}
+
+.tab1-col2 {
+    width: 80%;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+#profile {
+    margin-top: 30vh;
+}
+
+
+
+
+
+
+
+.tab2 {
+    width: 100%;
+    box-sizing: border-box;
+    /* height: calc(100vh - 51px); */
+    /* height: 100vh; */
+    background-image: repeating-linear-gradient(rgb(163, 153, 153), rgb(90, 90, 199));
+}
+
+.tab2-flex {
+    width: 80%;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.tab2-form {
+    width: 100%;
+}
+
+.tab2-form-row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tab2-form-col {
+    width: 50%;
+    text-align: left;
+}
+
+.tab2-form-col input {
+    width: 80%;
+}
+
+.tab2-form-col select {
+    width: 80%;
+    background-color: white;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+#tab3 {
+    background-image: repeating-linear-gradient(rgb(216, 212, 207), rgb(119, 191, 194));
+}
+
+.tab3-display-emp-btn {
+    width: 80%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    margin-right: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+#tab3-emp-show {
+    background-color: rgb(79, 165, 79);
+    border-radius: 8px;
+    border: 0px;
+}
+
+.tab3-flex {
+    width: 80%;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.tab3-flex th, td {
+    padding-bottom: 1em;
+}
+
+#tab3-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5em;
+}
+
+#tab3-form table {
+    width: 100%;
+}
+
+button[name="del-submit"] {
+    border-radius: 8px;
+    background-color: rgb(235, 23, 23);
+    border: 0px;
+}
+
+
+
+
+
+#tab4 {
+    background-image: repeating-linear-gradient(rgb(216, 212, 207), rgb(221, 142, 188));
+}
+
+.tab4-display-hod-btn {
+    width: 80%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+button[name="hod-list-show"] {
+    background-color: rgb(102, 184, 102);
+    border-radius: 8px;
+    border: 0px;
+}
+
+#tab4-hod-add {
+    width: 80%;
+    padding-bottom: 5em;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.tab4-hod-list {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[class="hod-man-btn"] {
+    width: 100%;
+    border-radius: 8px;
+    height: 20px;
+    background-color: #4CAF50;
+    border: 0px;
+    font-size: 12px;
+}
+
+.tab4-hod-list tr select {
+    width: 80%;
+    background-color: white;
+    border-radius: 0px;
+}
+
+.tab4-hod-list tr td, th {
+    padding-bottom: 1em;
+}

@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+}
+
+.header {
+    background-color: lightslategray;
+    color: black;
+}
+
+.heading {
+    text-align: center;
+    margin: 0px; 
+    padding: 20px 0px 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-wrap {
+    padding-bottom: 5.3rem;
+    background-color: lightslategray;
+    color: black;
+}
+
+.login-box {
+    width: 30%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.login-form {
+    padding: 40px;
+}
+
+.box {
+    width: 100%;
+}
